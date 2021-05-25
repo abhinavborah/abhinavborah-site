@@ -29,8 +29,10 @@ hr {
 /* links */
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin: 1rem 0rem; */
     /* color: var(--primary-color); */
 }
 
@@ -122,6 +124,11 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer--header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{
